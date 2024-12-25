@@ -71,6 +71,11 @@ select {
   padding: 0px 20px;
   border: 1px solid #e0e0e0;
   font-size: 14px;
+  outline: none;
+}
+ul li input:focus {
+  border: 1px solid #dd5471;
+  transition: 500ms;
 }
 ul li button {
   width: 545px;
@@ -84,6 +89,11 @@ ul li button {
 button:hover {
   transition: 500ms;
   background-color: #d84162;
+}
+button:active {
+  background-color: #d8416280;
+  transition: 500ms;
+  scale: 1.1;
 }
 .contact-container {
   display: flex;
