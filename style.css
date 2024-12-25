@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #eaeaea;
+  font-family: montserrt;
+}
+@font-face {
+  font-family: montserrt;
+  src: url(fonts/Montserrat-Regular.ttf);
+}
+.main-container {
+  display: flex;
+  width: 1440px;
+  height: 900px;
+  overflow: hidden;
+  border-radius: 50px;
+  margin: 22px auto;
+  position: relative;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.main-container .white-box-container {
+  width: 1021px;
+  height: 900px;
+  background-color: white;
+}
+.main-container .black-box-container {
+  width: 419px;
+  height: 900px;
+  background-color: #183a4a;
+}
+iframe {
+  width: 545px;
+  height: 700px;
+  position: absolute;
+  left: 745px;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+.white-box-container .register-description-container {
+  margin: 148px 0px 0px 150px;
+}
+.white-box-container .register-description-container h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+.white-box-container .register-description-container span {
+  color: #dd5471;
+}
+.white-box-container .register-description-container h4 {
+  width: 545px;
+  height: 48px;
+  margin-top: 20px;
+}
+.white-box-container .register-container {
+  margin: 40px 50px 60px 150px;
+}
+.white-box-container .register-container ul {
+  list-style: none;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+ul li input,
+select {
+  width: 545px;
+  height: 50px;
+  padding: 0px 20px;
+  border: 1px solid #e0e0e0;
+  font-size: 14px;
+}
+ul li button {
+  width: 545px;
+  height: 50px;
+  background-color: #dd5471;
+  border: none;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  transition: 500ms;
+  background-color: #d84162;
+}
+.contact-container {
+  display: flex;
+  margin: 60px 0px 0px 150px;
+  gap: 50px;
+}
+.contact-container .support-container {
+  display: flex;
+}
+.contact-container .contact-support {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15px;
+  font-size: 13px;
+}
+.contact-container .contact-support a {
+  text-decoration: none;
+  color: #dd5471;
+}
+.contact-container .contact-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
